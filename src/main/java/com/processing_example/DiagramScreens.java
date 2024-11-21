@@ -77,21 +77,22 @@ public class DiagramScreens extends Main {
     //Different Mouse Pressed functions to control which screen the user is on
     public void mousePressed() {
         if (isMouseOverButton(headButtonX, headButtonY, buttonRadius)) {
-            parent.println("Head and Neck button clicked!");
+            // parent.println("Head and Neck button clicked!");
             currentScreen = headAndNeck;
             headAndNeck.setup();
             
-            parent.println(currentScreen);
+            // parent.println(currentScreen);
         }
         if (isMouseOverButton(chestButtonX, chestButtonY, buttonRadius)) {
             parent.println("Chest and Back button clicked!");
             currentScreen = chestAndBack;
-            parent.println(currentScreen);
+            chestAndBack.setup();
         }
         if (isMouseOverButton(armButtonX, armButtonY, buttonRadius)) {
             parent.println("Arm and Hand button clicked!");
             currentScreen = armAndHand;
-            parent.println(currentScreen);
+            armAndHand.setup();
+
         }
         backButtonClick();
     }//End Mouse Pressed

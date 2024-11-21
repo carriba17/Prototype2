@@ -2,10 +2,10 @@ package com.processing_example;
 
 import processing.core.PApplet;
 
-public class CervicalSpine extends HeadAndNeck {
+public class Clavicle extends ArmAndHand {
 PApplet parent;
 
-    CervicalSpine(PApplet parent){
+    Clavicle(PApplet parent){
         super(parent);
         this.parent = parent;
     }
@@ -13,7 +13,7 @@ PApplet parent;
     public void displayInfo(){
         parent.textSize(25);
         parent.fill(0);
-        parent.text("Cervical Spine", 550, 550);
+        parent.text("The Clavicle", 250, 450);
     }
 
 }

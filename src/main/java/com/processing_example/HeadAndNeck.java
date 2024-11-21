@@ -23,6 +23,7 @@ public class HeadAndNeck extends DiagramScreens{
 
     Skull skull;
     Mandible mandible;
+    CervicalSpine cervicalSpine;
 
 
     HeadAndNeck(PApplet parent){
@@ -38,7 +39,6 @@ public void draw(){
     drawSkullButton();
     drawMandibleButton();
     drawSpineButton();
-    drawMandibleButton();
     displayHeadAndNeckInfo();
 
 }
@@ -46,6 +46,7 @@ public void draw(){
 public void setup(){
     skull = new Skull(parent);
     mandible = new Mandible(parent);
+    cervicalSpine = new CervicalSpine(parent);
 }
 //Function for drawing Head button
 public void drawSkullButton(){
@@ -86,6 +87,9 @@ public void drawSpineButton(){
             }  
         if (isMouseOverButton(mandibleButtonX, mandibleButtonY, buttonRadius)) {
              mandible.displayInfo();
-            }   
+            }
+        if (isMouseOverButton(spineButtonX, spineButtonY, buttonRadius)) {
+             cervicalSpine.displayInfo();
+            }      
     }
 }//End Head and Neck Class
