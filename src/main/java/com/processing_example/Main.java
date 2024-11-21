@@ -52,4 +52,8 @@ public class Main extends PApplet {
             println(key);
         }
         }
+
+        public void mousePressed(){
+            diagramScreens.mousePressed();
+        }
 }//End Main Class
