@@ -11,6 +11,7 @@ public class HeadAndNeck extends DiagramScreens{
 
     HeadAndNeck(PApplet parent){
         super(parent);
+        this.parent = parent;
         headAndNeck = parent.loadImage("HeadAndNeck.jpg");
     }
 public void draw(){

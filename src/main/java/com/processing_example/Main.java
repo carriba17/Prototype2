@@ -31,6 +31,7 @@ public class Main extends PApplet {
     public void setup() {
         startScreen = new StartScreen(this);
         diagramScreens = new DiagramScreens(this); // Pass this PApplet instance
+        diagramScreens.setup();
         // diagramImg = loadImage("SkeletalDiagram.jpg"); 
     }
 
