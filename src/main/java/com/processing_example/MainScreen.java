@@ -5,14 +5,14 @@ import processing.core.PImage;
 
 public class MainScreen extends DiagramScreens {
 
-    float headButtonX = 350;
+    float headButtonX = 400;
     float headButtonY = 150;
     float buttonRadius = 10;
 
-    float chestButtonX = 350;
+    float chestButtonX = 400;
     float chestButtonY = 350;
 
-    float armButtonX = 500;
+    float armButtonX = 550;
     float armButtonY = 350;
 
     PImage diagramImg;
@@ -28,7 +28,7 @@ public class MainScreen extends DiagramScreens {
     @Override
     public void draw() {
         parent.background(255);
-        parent.image(diagramImg, 100, 100, 500, 500);
+        parent.image(diagramImg, 150, 100, 500, 500);
         drawHeadButton();
         drawChestButton();
         drawArmButton();

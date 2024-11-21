@@ -2,10 +2,10 @@ package com.processing_example;
 
 import processing.core.PApplet;
 
-public class Skull extends HeadAndNeck {
+public class Mandible extends HeadAndNeck {
 PApplet parent;
 
-    Skull(PApplet parent){
+    Mandible(PApplet parent){
         super(parent);
         this.parent = parent;
     }
@@ -13,7 +13,7 @@ PApplet parent;
     public void displayInfo(){
         parent.textSize(25);
         parent.fill(0);
-        parent.text("The Skull", 500, 150);
+        parent.text("The Mandible", 250, 350);
     }
 
 }
