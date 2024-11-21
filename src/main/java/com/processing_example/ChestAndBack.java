@@ -48,21 +48,21 @@ public void setup(){
 
 //Function for drawing Scapula button
 public void drawScapulaButton(){
-    parent.fill(0, 128, 0); // Button color
+    parent.fill(65, 105, 225); // Button color
     parent.noStroke();
     parent.ellipse(scapulaButtonX, scapulaButtonY, buttonRadius * 2, buttonRadius * 2);
 }
 
-//Function for drawing chest button
+//Function for drawing Rib button
 public void drawRibButton(){
-    parent.fill(0, 128, 0); // Button color
+    parent.fill(65, 105, 225); // Button color
     parent.noStroke();
     parent.ellipse(ribButtonX, ribButtonY, buttonRadius * 2, buttonRadius * 2);
 }
 
-//Function for drawing chest button
+//Function for drawing Spine button
 public void drawSpineButton(){
-    parent.fill(0, 128, 0); // Button color
+    parent.fill(65, 105, 225); // Button color
     parent.noStroke();
     parent.ellipse(thoracicSpineButtonX, thoracicSpineButtonY, buttonRadius * 2, buttonRadius * 2);
 }

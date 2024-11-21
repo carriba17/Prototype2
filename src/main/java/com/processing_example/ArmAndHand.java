@@ -6,16 +6,16 @@ import processing.core.PImage;
 public class ArmAndHand extends DiagramScreens{
 
     //
-    float humerousButtonX = 500;
-    float humerousButtonY = 275;
+    float humerousButtonX = 400;
+    float humerousButtonY = 375;
    
     //Chest Button Placement for Hover
-    float clavicleButtonX = 300;
-    float clavicleButtonY = 385;
+    float clavicleButtonX = 320;
+    float clavicleButtonY = 200;
   
     //Arm Button Placement for Hover
-    float shoulderButtonX = 400;
-    float shoulderButtonY = 550;
+    float shoulderButtonX = 360;
+    float shoulderButtonY = 230;
     float buttonRadius = 10;
     
     PApplet parent;
@@ -45,22 +45,23 @@ public void setup(){
     shoulder = new Shoulder(parent);
 }
 
+//Function responsible for Humerous button
 public void drawHumerousButton(){
-    parent.fill(0, 128, 0); // Button color
+    parent.fill(65, 105, 225); // Button color
     parent.noStroke();
     parent.ellipse(humerousButtonX, humerousButtonY, buttonRadius * 2, buttonRadius * 2);
 }
 
-//Function for drawing chest button
+//Function for drawing clavicle button
 public void drawClavicleButton(){
-    parent.fill(0, 128, 0); // Button color
+    parent.fill(65, 105, 225); // Button color
     parent.noStroke();
     parent.ellipse(clavicleButtonX, clavicleButtonY, buttonRadius * 2, buttonRadius * 2);
 }
 
-//Function for drawing chest button
+//Function for drawing shoulder button
 public void drawShoulderButton(){
-    parent.fill(0, 128, 0); // Button color
+    parent.fill(65, 105, 225); // Button color
     parent.noStroke();
     parent.ellipse(shoulderButtonX, shoulderButtonY, buttonRadius * 2, buttonRadius * 2);
 }

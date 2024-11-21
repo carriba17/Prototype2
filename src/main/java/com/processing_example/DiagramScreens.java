@@ -28,6 +28,7 @@ public class DiagramScreens extends Main {
 
     //All my more Comlex Variables
     PImage diagramImg;
+    PImage logoImg;
     PApplet parent;
     DiagramScreens headAndNeck;
     DiagramScreens chestAndBack;
@@ -43,6 +44,7 @@ public class DiagramScreens extends Main {
     }
 
     public void setup(){
+        logoImg= parent.loadImage("S&S.jpg");
         headAndNeck = new HeadAndNeck(parent);
         chestAndBack = new ChestAndBack(parent);
         armAndHand = new ArmAndHand(parent);
@@ -62,6 +64,7 @@ public class DiagramScreens extends Main {
     public void draw() {
             currentScreen.draw();
             drawBackButton();
+            drawLogo();
 
              // Delegate drawing to the current screen
             //   if (currentScreen != null) {
@@ -100,8 +103,8 @@ public class DiagramScreens extends Main {
 
     //Check if the mouse is over the button
     public boolean isMouseOverBackButton() {
-        return parent.mouseX >= 10 && parent.mouseX <= 90 &&
-               parent.mouseY >= 10 && parent.mouseY <= 40;
+        return parent.mouseX >= 50 && parent.mouseX <= 140 &&
+               parent.mouseY >= 125 && parent.mouseY <= 165;
     }
 
      //Hover Functions to determine if the mouse is over the desired area
@@ -111,14 +114,14 @@ public class DiagramScreens extends Main {
     }
 
     public void drawBackButton(){
-        parent.fill(0, 0, 255); // Blue color
+        parent.fill(65, 105, 225); // Blue color
         parent.noStroke();
-        parent.rect(10, 10, 80, 30); // Position: Top-left corner (x: 10, y: 10)
+        parent.rect(50, 125, 80, 30); // Position: Top-left corner (x: 10, y: 10)
     
         // Draw the "Back" text
         parent.fill(255); // White color for text
         parent.textSize(16);
-        parent.text("Back", 20, 30);
+        parent.text("Back", 60, 150);
     }
 
     
@@ -128,6 +131,13 @@ public class DiagramScreens extends Main {
             parent.println("Back button clicked!");
             currentScreen = mainScreen; // Switch back to the main screen
         }
+    }
+
+    public void drawLogo(){
+        // parent.image(logoImg, 350, 50,50,50);
+        parent.textSize(35);
+        parent.fill(0);
+        parent.text("Sun & Son Interactive Diagram", 150, 50);
     }
 
 }//End Diagram Screens

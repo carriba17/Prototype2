@@ -50,21 +50,21 @@ public void setup(){
 }
 //Function for drawing Head button
 public void drawSkullButton(){
-    parent.fill(0, 128, 0); // Button color
+    parent.fill(65, 105, 225); // Button color
     parent.noStroke();
     parent.ellipse(skullButtonX, skullButtonY, buttonRadius * 2, buttonRadius * 2);
 }
 
 //Function for drawing chest button
 public void drawMandibleButton(){
-    parent.fill(0, 128, 0); // Button color
+    parent.fill(65, 105, 225); // Button color
     parent.noStroke();
     parent.ellipse(mandibleButtonX, mandibleButtonY, buttonRadius * 2, buttonRadius * 2);
 }
 
 //Function for drawing chest button
 public void drawSpineButton(){
-    parent.fill(0, 128, 0); // Button color
+    parent.fill(65, 105, 225); // Button color
     parent.noStroke();
     parent.ellipse(spineButtonX, spineButtonY, buttonRadius * 2, buttonRadius * 2);
 }
