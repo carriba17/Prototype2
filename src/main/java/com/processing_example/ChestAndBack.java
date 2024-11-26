@@ -5,16 +5,16 @@ import processing.core.PImage;
 
 public class ChestAndBack extends DiagramScreens{
   //Head Button Placement for Hover
-  float scapulaButtonX = 500;
-  float scapulaButtonY = 275;
+  float scapulaButtonX = 1025;
+  float scapulaButtonY = 700;
  
   //Chest Button Placement for Hover
-  float ribButtonX = 300;
-  float ribButtonY = 385;
+  float ribButtonX = 600;
+  float ribButtonY = 770;
 
   //Arm Button Placement for Hover
-  float thoracicSpineButtonX = 400;
-  float thoracicSpineButtonY = 550;
+  float thoracicSpineButtonX = 825;
+  float thoracicSpineButtonY = 1000;
 
   float buttonRadius = 10;
   PApplet parent;
@@ -32,7 +32,7 @@ public class ChestAndBack extends DiagramScreens{
     }
 public void draw(){
     parent.background(255);
-    parent.image(chestAndBack, 150, 100, 500, 500);
+    parent.image(chestAndBack, 450, 400, 750, 750);
     drawScapulaButton();
     drawRibButton();
     drawSpineButton();

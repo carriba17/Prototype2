@@ -5,15 +5,15 @@ import processing.core.PImage;
 
 public class MainScreen extends DiagramScreens {
 
-    float headButtonX = 400;
-    float headButtonY = 150;
+    float headButtonX = 800;
+    float headButtonY = 350;
     float buttonRadius = 10;
 
-    float chestButtonX = 400;
-    float chestButtonY = 350;
+    float chestButtonX = 800;
+    float chestButtonY = 750;
 
-    float armButtonX = 550;
-    float armButtonY = 350;
+    float armButtonX = 1025;
+    float armButtonY = 750;
 
     PImage diagramImg;
     PApplet parent;
@@ -28,7 +28,7 @@ public class MainScreen extends DiagramScreens {
     @Override
     public void draw() {
         parent.background(255);
-        parent.image(diagramImg, 150, 100, 500, 500);
+        parent.image(diagramImg, 400, 300, 800, 800);
         drawHeadButton();
         drawChestButton();
         drawArmButton();
@@ -62,38 +62,41 @@ public class MainScreen extends DiagramScreens {
 
         //Draw Text for Head Button
         if(isMouseOverButton(headButtonX, headButtonY, buttonRadius)){
-            parent.textSize(25);
-            parent.fill(0);
-            parent.text("Head and Neck", 500, 150);
+            parent.textSize(45);
+            parent.fill(65, 105, 225);
+            parent.text("Head and Neck", 1025, 250);
 
-            parent.textSize(15);
-            parent.text("-Skull", 500, 175);
-            parent.text("-Mandible", 500, 200);
-            parent.text("-Cervical Spine", 500, 225);
+            parent.textSize(35);
+            parent.fill(0);
+            parent.text("-Skull", 1025, 300);
+            parent.text("-Mandible", 1025, 350);
+            parent.text("-Cervical Spine", 1025, 400);
         }
 
         //Draw Text for Chest Button
         if(isMouseOverButton(chestButtonX, chestButtonY, buttonRadius)){
-            parent.textSize(25);
-            parent.fill(0);
-            parent.text("Chest and Back", 50, 250);
+            parent.textSize(45);
+            parent.fill(65, 105, 225);
+            parent.text("Chest and Back", 200, 350);
 
-            parent.textSize(15);
-            parent.text("-Scapula", 50, 275);
-            parent.text("-Mandible", 50, 300);
-            parent.text("-Cervical Spine", 50, 325);
+            parent.textSize(35);
+            parent.fill(0);
+            parent.text("-Scapula", 200, 400);
+            parent.text("-Mandible", 200, 450);
+            parent.text("-Cervical Spine", 200, 500);
         }
 
         //Draw text for Arm Button
         if(isMouseOverButton(armButtonX, armButtonY, buttonRadius)){
-            parent.textSize(25);
-            parent.fill(0);
-            parent.text("Arm and Hand", 600, 200);
+            parent.textSize(45);
+            parent.fill(65, 105, 225);
+            parent.text("Arm and Hand", 1200, 600);
 
-            parent.textSize(15);
-            parent.text("-Clavicle", 600, 225);
-            parent.text("-Shoulder Joint", 600, 250);
-            parent.text("-Cervical Spine", 600, 275);
+            parent.textSize(35);
+            parent.fill(0);
+            parent.text("-Clavicle", 1200, 650);
+            parent.text("-Shoulder Joint", 1200, 700);
+            parent.text("-Cervical Spine", 1200, 750);
         }
 
     }

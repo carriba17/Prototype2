@@ -11,13 +11,14 @@ PApplet parent;
     }
 
     public void displayInfo(){
+        parent.textSize(35);
+        parent.fill(65, 105, 225);
+        parent.text("The Thoracic Spine", 50, 450);
+
         parent.textSize(25);
         parent.fill(0);
-        parent.text("The Thoracic Spine", 550, 150);
-
-        parent.textSize(15);
-        parent.text("Together, your thoracic \nspine and ribcage protect your \nheart and lungs.", 550, 175);
-        parent.text("The joints in your \nthoracic spine are tight enough to\n protect these vital organs but loose \nenough to allow for the movements of \nbreathing — inhaling and exhaling.", 550, 275);
+        parent.text("Together, your thoracic \nspine and ribcage protect your \nheart and lungs.", 50, 500);
+        parent.text("The joints in your thoracic\n spine are tight enough \nto protect these vital organs but\nloose enough to allow for the \nmovements of breathing —\ninhaling and exhaling.", 50, 650);
 
     }
 

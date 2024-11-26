@@ -6,16 +6,16 @@ import processing.core.PImage;
 public class HeadAndNeck extends DiagramScreens{
 
     //Head Button Placement for Hover
-    float skullButtonX = 400;
-    float skullButtonY = 150;
+    float skullButtonX = 800;
+    float skullButtonY = 350;
    
     //Chest Button Placement for Hover
-    float mandibleButtonX = 310;
-    float mandibleButtonY = 385;
+    float mandibleButtonX = 675;
+    float mandibleButtonY = 750;
 
     //Arm Button Placement for Hover
-    float spineButtonX = 450;
-    float spineButtonY = 500;
+    float spineButtonX = 800;
+    float spineButtonY = 1000;
 
     float buttonRadius = 10;
     PApplet parent;
@@ -35,7 +35,7 @@ public class HeadAndNeck extends DiagramScreens{
     }
 public void draw(){
     parent.background(255);
-    parent.image(headAndNeck, 80, 100, 700, 500);
+    parent.image(headAndNeck, 325, 300, 1050, 750);
     drawSkullButton();
     drawMandibleButton();
     drawSpineButton();

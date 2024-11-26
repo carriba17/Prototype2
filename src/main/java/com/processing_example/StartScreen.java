@@ -17,11 +17,11 @@ public class StartScreen {
 
     public void draw() {
         parent.background(255);
-        parent.textSize(30);
+        parent.textSize(50);
         parent.fill(0);
-        parent.text("Welcome to Carters Interactive Skeletal Diagram", 50, 150);
-        parent.textSize(20);
-        parent.text("Press S to start the Interactive experience", 200, 200);
-        parent.image(skeletonStart, 175, 250, 400, 400);
+        parent.text("Welcome to Carter's Interactive Skeletal Diagram", 250, 200);
+        parent.textSize(30);
+        parent.text("Press S To Start The Interactive Experience", 525, 350);
+        parent.image(skeletonStart, 525, 450, 600, 600);
     }
 }

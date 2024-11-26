@@ -13,16 +13,16 @@ import processing.core.PImage;
 public class DiagramScreens extends Main {
 
     //Head Button Placement for Hover
-    float headButtonX = 400;
-    float headButtonY = 150;
+    float headButtonX = 800;
+    float headButtonY = 350;
    
     //Chest Button Placement for Hover
-    float chestButtonX = 400;
-    float chestButtonY = 350;
+    float chestButtonX = 800;
+    float chestButtonY = 750;
 
     //Arm Button Placement for Hover
-    float armButtonX = 550;
-    float armButtonY = 350;
+    float armButtonX = 1025;
+    float armButtonY = 750;
 
     float buttonRadius = 10;
 
@@ -135,9 +135,9 @@ public class DiagramScreens extends Main {
 
     public void drawLogo(){
         // parent.image(logoImg, 350, 50,50,50);
-        parent.textSize(35);
+        parent.textSize(45);
         parent.fill(0);
-        parent.text("Sun & Son Interactive Diagram", 150, 50);
+        parent.text("Sun & Son Interactive Diagram", 500, 75);
     }
 
 }//End Diagram Screens

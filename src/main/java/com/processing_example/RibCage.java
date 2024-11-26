@@ -11,13 +11,14 @@ PApplet parent;
     }
 
     public void displayInfo(){
+        parent.textSize(35);
+        parent.fill(65, 105, 225);
+        parent.text("The Rib Cage", 75, 250);
+
         parent.textSize(25);
         parent.fill(0);
-        parent.text("The Rib Cage", 25, 200);
-
-        parent.textSize(15);
-        parent.text("Your rib cage surrounds \nand protects the vital organs \nin your chest cavity, your heart \nand lungs.", 25, 225);
-        parent.text("It expands with your \nlungs when you breathe. As part \nof your axial skeleton, your rib \ncage helps form the trunk \nof your body. ", 25, 325);
+        parent.text("Your rib cage surrounds \nand protects the vital organs \nin your chest cavity, your heart \nand lungs.", 75, 300);
+        parent.text("It expands with your \nlungs when you breathe. As part \nof your axial skeleton, your rib \ncage helps form the trunk \nof your body. ", 75, 450);
 
     }
 
