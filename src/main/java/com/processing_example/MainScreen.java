@@ -5,15 +5,15 @@ import processing.core.PImage;
 
 public class MainScreen extends DiagramScreens {
 
-    float headButtonX = 800;
-    float headButtonY = 350;
+    float headButtonX = 800;//800 (width * 0.477f)
+    float headButtonY = 350;//350 (height* 0.35f)
     float buttonRadius = 10;
 
-    float chestButtonX = 800;
-    float chestButtonY = 750;
+    float chestButtonX = 800;//800 (width *0.477f)
+    float chestButtonY = 750;//750 (height*0.75f)
 
-    float armButtonX = 1025;
-    float armButtonY = 750;
+    float armButtonX = 1025;//1025 (width * 0.611f)
+    float armButtonY = 750;//750 (height* 0.75f)
 
     PImage diagramImg;
     PApplet parent;

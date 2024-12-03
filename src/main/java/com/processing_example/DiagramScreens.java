@@ -13,8 +13,8 @@ import processing.core.PImage;
 public class DiagramScreens extends Main {
 
     //Head Button Placement for Hover
-    float headButtonX = 800;
-    float headButtonY = 350;
+    float headButtonX = 800;//(width * 0.477f)
+    float headButtonY = 350;//(height* 0.35f)
    
     //Chest Button Placement for Hover
     float chestButtonX = 800;

@@ -10,12 +10,12 @@ public class ArmAndHand extends DiagramScreens{
     float humerousButtonY = 675;
    
     //Chest Button Placement for Hover
-    float clavicleButtonX = 320;
-    float clavicleButtonY = 200;
+    float clavicleButtonX = 700;
+    float clavicleButtonY = 350;
   
     //Arm Button Placement for Hover
     float shoulderButtonX = 750;
-    float shoulderButtonY = 625;
+    float shoulderButtonY = 400;
     float buttonRadius = 10;
     
     PApplet parent;
