@@ -14,7 +14,7 @@ public class ChestAndBack extends DiagramScreens{
 
   //Arm Button Placement for Hover
   float thoracicSpineButtonX = 825;
-  float thoracicSpineButtonY = 1000;
+  float thoracicSpineButtonY = 900;
 
   float buttonRadius = 10;
   PApplet parent;

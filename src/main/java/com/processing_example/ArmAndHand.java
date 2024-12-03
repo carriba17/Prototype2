@@ -5,17 +5,17 @@ import processing.core.PImage;
 
 public class ArmAndHand extends DiagramScreens{
 
-    //
-    float humerousButtonX = 400;
-    float humerousButtonY = 375;
+    //Humerous Button for Hover
+    float humerousButtonX = 800;
+    float humerousButtonY = 675;
    
     //Chest Button Placement for Hover
     float clavicleButtonX = 320;
     float clavicleButtonY = 200;
   
     //Arm Button Placement for Hover
-    float shoulderButtonX = 360;
-    float shoulderButtonY = 230;
+    float shoulderButtonX = 750;
+    float shoulderButtonY = 625;
     float buttonRadius = 10;
     
     PApplet parent;
@@ -32,7 +32,7 @@ public class ArmAndHand extends DiagramScreens{
     }
 public void draw(){
     parent.background(255);
-    parent.image(armAndHand, 300, 100, 250, 500);
+    parent.image(armAndHand, 600, 150, 500, 1000);
     drawHumerousButton();
     drawClavicleButton();
     drawShoulderButton();

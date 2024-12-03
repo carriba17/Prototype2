@@ -26,6 +26,10 @@ public class Main extends PApplet {
     public void settings() {
         // size(800, 600); // Set your window size
         fullScreen();
+
+        //Size of the Computer Screen I built off of
+        // size(1675,1000);
+
     }
 
     @Override
