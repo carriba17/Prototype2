@@ -1,3 +1,11 @@
+//Carter Arribas
+// Scapula Class
+// Dedicated to running information and button placement for the Scapula Class
+// 26 Novemeber 2024
+
+
+
+
 package com.processing_example;
 
 import processing.core.PApplet;

@@ -1,3 +1,11 @@
+//Carter Arribas
+// Arm and Hand Class
+// Dedicated to running the Screen for the Diagram of the Arm and Hand
+// This includes things like the Humerous subclass
+// 26 Novemeber 2024
+
+
+
 package com.processing_example;
 
 import processing.core.PApplet;

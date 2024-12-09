@@ -1,3 +1,8 @@
+//Carter Arribas
+// Humerous Class
+// Dedicated to running the button and information for the Humerous Subclass
+// 26 Novemeber 2024
+
 package com.processing_example;
 
 import processing.core.PApplet;

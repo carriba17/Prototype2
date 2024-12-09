@@ -1,3 +1,11 @@
+//Carter Arribas
+// Shoulder Class
+// Dedicated to running information and handling of the Shoulder class
+// 26 Novemeber 2024
+
+
+
+
 package com.processing_example;
 
 import processing.core.PApplet;

@@ -1,3 +1,8 @@
+//Carter Arribas
+// Mandible Class
+// Dedicated to running the mandible button for class
+// 26 Novemeber 2024
+
 package com.processing_example;
 
 import processing.core.PApplet;

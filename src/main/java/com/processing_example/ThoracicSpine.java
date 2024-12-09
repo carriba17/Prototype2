@@ -1,3 +1,9 @@
+//Carter Arribas
+// Thoracic Spine Class
+// Dedicated to running information and handling of the Thoracic Spine class
+// 26 Novemeber 2024
+
+
 package com.processing_example;
 
 import processing.core.PApplet;

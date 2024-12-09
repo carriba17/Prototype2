@@ -1,3 +1,9 @@
+//Carter Arribas
+// Main Screen Class
+// Dedicated to running the intial Screen of the Diagram
+// 26 Novemeber 2024
+
+
 package com.processing_example;
 
 import processing.core.PApplet;

@@ -1,3 +1,12 @@
+//Carter Arribas
+// Chest and Back Class
+// Dedicated to running the main operations of the Chest and Back Class
+// 26 Novemeber 2024
+
+
+
+
+
 package com.processing_example;
 
 import processing.core.PApplet;

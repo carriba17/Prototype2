@@ -1,3 +1,11 @@
+//Carter Arribas
+// Clavicle Class
+// Dedicated to running the functions for the Clavicle button
+// 26 Novemeber 2024
+
+
+
+
 package com.processing_example;
 
 import processing.core.PApplet;

@@ -1,6 +1,7 @@
 //Carter Arribas
 //Diagram screen Class
 //This Class is responsible for handling all the events inside the Screen
+//All my main Screens run through this class and it handles most of the main events of the program
 
 
 package com.processing_example;

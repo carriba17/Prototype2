@@ -1,3 +1,8 @@
+//Carter Arribas
+// Head and Neck Class
+// Dedicated to running the Head and Neck Portion of the Diagram
+// 26 Novemeber 2024
+
 package com.processing_example;
 
 import processing.core.PApplet;

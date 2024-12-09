@@ -1,3 +1,11 @@
+//Carter Arribas
+// Rib Cage Class
+// Dedicated to running the rib cage information and button placement
+// 26 Novemeber 2024
+
+
+
+
 package com.processing_example;
 
 import processing.core.PApplet;
